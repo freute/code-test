@@ -1,8 +1,7 @@
-t=55
-#print(t)
-list=[]
-list.append(5)
-for i in range(10):
-    list.append(i)
+import  random
+random.seed(1)
+for i in range(0,10):
+    x=random.randrange(0,6)
+    print(x)
 
 
